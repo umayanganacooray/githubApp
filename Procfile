@@ -1,1 +1,2 @@
-web: python displayIssues.py
+web: gunicorn displayIssues:app
+
