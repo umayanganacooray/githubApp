@@ -2,7 +2,7 @@ import os
 import requests
 from datetime import datetime
 
-GITHUB_API_URL = "https://api.github.com/search/issues?q=repo:umayanganacooray/githubApp+is:issue"
+GITHUB_API_URL = "https://api.github.com/search/issues?q=repo:wso2-enterprise/choreo+is:issue"
 TOKEN = os.getenv("GITHUB_PAT")  
 
 def convert_to_my_datetime(github_date):
